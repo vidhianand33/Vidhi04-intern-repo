@@ -68,3 +68,14 @@ A clear commit message helps everyone on the team understand what was changed, w
 How can poor commit messages cause issues later?
 
 Poor commit messages can cause confusion. If the message is vague, like "fixed stuff", no one will know exactly what was fixed. It’s harder to track down bugs, review the code, or understand what’s going on, which slows down the development process. In short, it just makes things messy and harder to work with.
+
+Git Bisect
+
+What does git bisect do?
+git bisect helps find which commit introduced a bug. You mark one commit as "good" (where everything worked) and one as "bad" (where the bug appears), and Git tests commits in between to find the exact one that caused the issue.
+
+When would you use it?
+If something breaks and you don’t know when it happened, git bisect helps you track it down fast. Instead of checking every commit one by one, it quickly finds the problem commit.
+
+How is it better than checking manually?
+Going through every commit takes forever. git bisect makes it way faster by narrowing it down step by step.
