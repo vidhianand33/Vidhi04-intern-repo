@@ -52,3 +52,19 @@ git blame <file> is great for finding out who made changes to specific lines of 
 What surprised you while testing these commands?
 
 I was surprised by how useful git blame was to track who made changes to a file and when. It helped me figure out who to ask if I needed more details on a change. git cherry-pick also surprised me because it's a great way to just grab one commit without pulling in everything from another branch.
+
+Commit message
+
+A good commit message is short, clear, and tells you what the change is about. It should explain why the change was made, not just what was changed. A good commit message usually follows this structure:
+
+Short summary: A brief one-line description of the change (no more than 50 characters).
+Details (optional): A short explanation of why the change was needed or any extra info.
+Action verb: Start the message with a verb like "Fix", "Add", "Update" so it sounds like an action.
+
+How does a clear commit message help in team collaboration?
+
+A clear commit message helps everyone on the team understand what was changed, why, and how it impacts the project. It makes it easier for other team members to review code and find out why certain changes were made, which is especially helpful when multiple people are working together.
+
+How can poor commit messages cause issues later?
+
+Poor commit messages can cause confusion. If the message is vague, like "fixed stuff", no one will know exactly what was fixed. It’s harder to track down bugs, review the code, or understand what’s going on, which slows down the development process. In short, it just makes things messy and harder to work with.
