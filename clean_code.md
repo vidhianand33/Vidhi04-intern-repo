@@ -37,3 +37,14 @@ The linter caught missing semicolons, inconsistent spacing, and an unused variab
 
 Did formatting the code make it easier to read?
 Yes! The code looks much cleaner now, and it's easier to spot mistakes. The automatic formatting also saved time by fixing small issues instantly.
+
+Naming Variables & Functions
+
+What makes a good variable or function name?
+A good name should be clear and show exactly what the variable or function does, like userID instead of num.
+
+What issues can arise from poorly named variables?
+Poor names make the code confusing and harder to understand, especially when coming back to it later.
+
+How did refactoring improve code readability?
+Refactoring made the code cleaner and easier to follow by using more meaningful names, making it quicker to understand.
