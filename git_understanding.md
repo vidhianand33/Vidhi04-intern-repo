@@ -23,3 +23,14 @@ I opened the conflicting file in my Git client, where Git showed both changes ma
 
 What did you learn?
 I learned that merge conflicts happen when two branches make changes to the same part of a file. It’s important to manually review and choose which changes to keep during a conflict. I also learned how to use a Git client to visually resolve conflicts.
+
+Branching and Team Collaboration
+
+Why is pushing directly to main problematic?
+Pushing directly to main can cause problems because it might introduce bugs or break things that aren’t noticed right away. If multiple people are working on the same code and pushing directly to main, it could cause conflicts or issues that affect everyone’s work.
+
+How do branches help with reviewing code?
+Branches help with code review by letting you make changes separately from the main code. You can create a branch, make changes, and test them without messing up the main project. This way, others can review your changes before they are merged into the main branch.
+
+What happens if two people edit the same file on different branches?
+If two people edit the same file on different branches, Git will create a merge conflict when trying to merge the branches. Git won't know which changes to keep, so it will ask you to manually choose the correct version or combine the changes.
