@@ -79,3 +79,13 @@ If something breaks and you don’t know when it happened, git bisect helps you 
 
 How is it better than checking manually?
 Going through every commit takes forever. git bisect makes it way faster by narrowing it down step by step.
+
+Pull request
+Why are PRs important in a team workflow?
+PRs let team members review code before it gets added to the main project. This helps catch mistakes, keep code quality high, and make sure everyone agrees on changes.
+
+What makes a well-structured PR?
+A clear title, a short but useful description of the changes, and why they’re needed. It should also link to any related issues and include screenshots (if relevant).
+
+What did you learn from reviewing an open-source PR?
+People leave helpful comments to suggest improvements, and discussions help refine the code. It’s not just about merging—it’s about making the code better together.
