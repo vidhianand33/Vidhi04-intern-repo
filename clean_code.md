@@ -48,3 +48,11 @@ Poor names make the code confusing and harder to understand, especially when com
 
 How did refactoring improve code readability?
 Refactoring made the code cleaner and easier to follow by using more meaningful names, making it quicker to understand.
+
+Functions
+
+Why is breaking down functions beneficial?
+Breaking down functions into smaller ones makes the code easier to understand, test, and maintain. It helps you focus on one task at a time.
+
+How did refactoring improve the structure of the code?
+Refactoring made the code more organized and modular. By splitting up big functions, it became cleaner and more manageable, making it easier to follow and debug.
