@@ -28,3 +28,12 @@ function handleClick(event) {
     const form = document.querySelector("#my-form");
     form.submit(); // Submits the form
 }
+
+Why is code formatting important?
+Keeping a consistent style makes code easier to read, understand, and maintain. It also helps teams collaborate better since everyone follows the same structure.
+
+What issues did the linter detect?
+The linter caught missing semicolons, inconsistent spacing, and an unused variable. It also flagged some best practice suggestions, like using const instead of let for values that don’t change.
+
+Did formatting the code make it easier to read?
+Yes! The code looks much cleaner now, and it's easier to spot mistakes. The automatic formatting also saved time by fixing small issues instantly.
