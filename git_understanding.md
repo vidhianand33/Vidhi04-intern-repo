@@ -81,6 +81,7 @@ How is it better than checking manually?
 Going through every commit takes forever. git bisect makes it way faster by narrowing it down step by step.
 
 Pull request
+
 Why are PRs important in a team workflow?
 PRs let team members review code before it gets added to the main project. This helps catch mistakes, keep code quality high, and make sure everyone agrees on changes.
 
