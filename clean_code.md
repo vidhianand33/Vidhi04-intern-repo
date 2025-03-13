@@ -55,4 +55,17 @@ Why is breaking down functions beneficial?
 Breaking down functions into smaller ones makes the code easier to understand, test, and maintain. It helps you focus on one task at a time.
 
 How did refactoring improve the structure of the code?
-Refactoring made the code more organized and modular. By splitting up big functions, it became cleaner and more manageable, making it easier to follow and debug.
+Refactoring made the code more organised and modular. By splitting up big functions, it became cleaner and more manageable, making it easier to follow and debug.
+
+Reflection on Code Duplication
+
+Issues with Duplicated Code:
+- Harder to maintain: If a bug is found, it needs to be fixed in multiple places.
+- Increased complexity: More lines of code make it harder to understand.
+- Inconsistent updates: If one instance is changed but others are forgotten, it can lead to errors.
+
+Refactoring improve maintainability:
+- Used functions and loops to remove repeated logic.
+- Improved readability and made the code cleaner.
+- Easier to update: Changes only need to be made in one place.
+- Reduced risk of errors and inconsistencies.
