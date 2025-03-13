@@ -69,3 +69,16 @@ Refactoring improve maintainability:
 - Improved readability and made the code cleaner.
 - Easier to update: Changes only need to be made in one place.
 - Reduced risk of errors and inconsistencies.
+
+Reflection on Commenting & Documentation
+
+When to Add Comments:
+- Explain complex logic that isn’t immediately clear.
+- Provide context for why a decision was made.
+- Clarify non-obvious workarounds or known issues.
+- Document function parameters, expected inputs, and return values.
+
+When to Avoid Comments:
+- When the code is self-explanatory 
+- If the comment just repeats the code without adding value.
+- Instead of commenting on bad code, improve readability by renaming variables or breaking down complex functions.
