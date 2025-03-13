@@ -82,3 +82,17 @@ When to Avoid Comments:
 - When the code is self-explanatory 
 - If the comment just repeats the code without adding value.
 - Instead of commenting on bad code, improve readability by renaming variables or breaking down complex functions.
+
+Reflection on Refactoring Code for Simplicity
+
+What ade the original code complex:
+- Overuse of nested loops and conditionals.
+- Unnecessary duplication of logic.
+- Hard-to-read variable names and function structures.
+- Everything in one large function.
+
+How did refactoring improve it:
+- Broke down large functions into smaller, reusable ones.
+- Replaced deep nesting with early returns.
+- Used meaningful variable and function names.
+- Applied the DRY principle to remove duplication.
