@@ -96,3 +96,15 @@ How did refactoring improve it:
 - Replaced deep nesting with early returns.
 - Used meaningful variable and function names.
 - Applied the DRY principle to remove duplication.
+
+Reflection on Handling Errors & Edge Cases
+
+Issue with the Original Code:
+- It didn’t check for invalid inputs (e.g., None, empty values, or wrong data types).
+- It relied on nested conditionals.
+- Errors were not properly caught, leading to potential crashes.
+
+How Does Handling Errors Improve Reliability:
+- Prevents unexpected crashes by catching and handling errors early.
+- Improves user experience by providing clear error messages.
+- Makes debugging easier by logging meaningful error details.
