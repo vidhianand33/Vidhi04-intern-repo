@@ -34,7 +34,7 @@ When to Use AI vs. When to Rely on Human Skills
 Use AI for:  
 - Generating ideas and content drafts.  
 - Automating repetitive or research-heavy tasks.  
-- Assisting in debugging or summarization.  
+- Assisting in debugging or summarisation.  
 
 Use human expertise for:  
 - Decision-making and problem-solving.  

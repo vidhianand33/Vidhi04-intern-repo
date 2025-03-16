@@ -108,3 +108,17 @@ How Does Handling Errors Improve Reliability:
 - Prevents unexpected crashes by catching and handling errors early.
 - Improves user experience by providing clear error messages.
 - Makes debugging easier by logging meaningful error details.
+
+Unit Tests for Clean Code
+- Improves productivity
+- Avoids bugs
+- Helps to detect errors early
+- Improves code readability
+- Allow safe refactoring without breaking existing functionality
+- Makes debugging easier
+
+Issues faced while unit testing
+- Choosing the type of tests
+- Regular reviewing: All the tests should be reviewed regularly if and when the code is updated.
+- Picking Functions to Test: It's tough to decide which functions are important to test.
+- Handling Complex Code: Testing becomes harder in large and complicated codebases.
