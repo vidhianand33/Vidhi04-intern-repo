@@ -16,3 +16,7 @@ Components are important as:
 - Improves state management as components can handle their own data, and they can communicate with one another through props, making it easier to create dynamic and interactive UIs.
 - Makes testing and debugging easier as they can be tested separately in isolation reducing the complexity of tests
 - Components help separate the logic and UI, leading to better code organisation.
+
+Modifing state directly instead of using setState:
+- This will cause the app to try incrementing the counter, but the number will not update on the screen because the state change is not being saved properly. As a result, 0 will always be displayed, even when clicking the button.
+This happens because React does not detect state changes when modifying state directly, so it does not re-render the component to show the new value. Instead, setState must be used to ensure React updates the UI correctly.
