@@ -4,6 +4,7 @@ import React from 'react';
 import HelloWorld from './HelloWorld'; 
 import Counter from './Counter'
 import AssignList from './AssignList';
+import MyForm from './MyForm';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <HelloWorld name="Focus Bear" />
       <Counter /> {/* Display the Counter component */}
       <AssignList/> 
+      <MyForm/>
       </div>
   );
 }
