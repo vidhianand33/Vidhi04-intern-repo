@@ -1,13 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-const Counter = () => {
-  // Initialize state with useState
-  const [count, setCount] = useState(0);
-
-  // Function to increment the count
-  const incrementCount = () => {
-    setCount(count + 1); // Update state using setCount
-  };
+const Counter = ({ count, incrementCount }) => {
+  console.log("Counter re-rendered!");
 
   return (
     <div>
@@ -17,4 +11,4 @@ const Counter = () => {
   );
 };
 
-export default Counter;
+export default React.memo(Counter);  // Prevents unnecessary re-renders
