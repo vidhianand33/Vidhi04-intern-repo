@@ -20,3 +20,10 @@ Components are important as:
 Modifing state directly instead of using setState:
 - This will cause the app to try incrementing the counter, but the number will not update on the screen because the state change is not being saved properly. As a result, 0 will always be displayed, even when clicking the button.
 This happens because React does not detect state changes when modifying state directly, so it does not re-render the component to show the new value. Instead, setState must be used to ensure React updates the UI correctly.
+
+Issues while working with lists:
+- Type of list to be used based on the tasks. for example either FlatLists or SectionList.
+- The lists in react require unique key prop to be able to update the lists efficiently.
+- Performance issue with long lists as it slows down the UI.
+- Forgetting to use SetState can lead to the lists not being saved properly and leading to unexpected issues.
+- Empty list must always be given a default value.

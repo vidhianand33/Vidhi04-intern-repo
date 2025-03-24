@@ -3,6 +3,7 @@ import './App.css';
 import React from 'react';
 import HelloWorld from './HelloWorld'; 
 import Counter from './Counter'
+import AssignList from './AssignList';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       {/* Pass the name prop to HelloWorld component */}
       <HelloWorld name="Focus Bear" />
       <Counter /> {/* Display the Counter component */}
+      <AssignList/> 
       </div>
   );
 }
