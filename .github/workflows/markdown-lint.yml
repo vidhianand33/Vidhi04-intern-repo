@@ -12,7 +12,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Run Markdown Lint
-        uses: actionshub/markdownlint@v3
+        uses: DavidAnson/markdownlint-cli2-action@v16
+        
 
   spell-check:
     name: Run Spell Check
