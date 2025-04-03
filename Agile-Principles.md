@@ -1,4 +1,4 @@
-Agile principles 
+# Agile principles
 
 I have worked on a project before where we followed Agile principles. Since we had fixed deadlines and submissions, it made more sense for us to use Scrum. This helped us split tasks and submissions into different sprints with smaller, manageable tasks, making it easier to divide work among team members and track progress.
 Moreover Agile is a flexible, iterative approach to project management that focuses on continuous improvement, collaboration, and adaptability. Unlike traditional project management  which follows a linear, step-by-step process, Agile allows teams to adjust and respond to changes quickly rather than sticking to a fixed plan.
@@ -25,4 +25,4 @@ Kanban is more flexible, focusing on continuous workflow with no fixed iteration
 Most Useful Agile Principle in My Work
 
 "Simplicity—the art of maximizing the amount of work not done—is essential."
-This principle is useful because it helps prioritise tasks effectively, ensuring that only the most valuable work is done instead of overcomplicating things. It keeps the workflow clear, manageable, and efficient, avoiding unnecessary steps.
+This principle is useful because it helps prioritise tasks effectively, ensuring that only the most valuable work is done instead of overcomplicating things. It keeps the workflow clear, manageable, and efficient, avoiding unnecessary steps
