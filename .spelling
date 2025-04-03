@@ -1,0 +1,66 @@
+# markdown-spellcheck spelling configuration file
+# Format - lines beginning # are comments
+# global dictionary is at the start, file overrides afterwards
+# one word per line, to define a file override use ' - filename'
+# where filename is relative to this configuration file
+kanban
+jira
+trello
+atlassian
+focusbear
+Fazio
+standups
+onboarding
+chatgpt
+kotlin
+devtools
+const
+document.queryselector
+button.addeventlistener
+handleclick
+linter
+userid
+num
+2FA
+Bitwarden
+MFA
+formik
+50
+PRs
+neurodivergent
+css-tools
+npm
+css
+ast
+stringify
+whitespace
+plugins
+1-based
+1
+0
+stylesheet
+parsingErrors
+charset
+keyframes
+keyframe
+LRU
+QuickLRU
+maxsize
+maxage
+oneviction
+cleanup
+iterable
+entriesascending
+entriesDescending
+ampproject
+sourcemaps
+webpack
+sourcemap
+0th
+1st
+2nd
+Eg
+excludecontent
+decodedmappings
+vlq
+compat-data
