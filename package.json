@@ -25,7 +25,9 @@
     "markdownlint-cli": "^0.32.0"
   },
   "lint-staged": {
-    "*.md": 
-      "markdownlint --fix"
+    "*.md": [
+      "markdownlint --fix",
+      "markdown-spellcheck"
+    ]
   }
 }
