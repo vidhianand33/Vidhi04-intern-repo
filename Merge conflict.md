@@ -1,4 +1,4 @@
-Merge conflict 
+# Merge conflict
 
 What caused the conflict?
 The conflict was caused by editing the same section of the file in two different branches. One change was made on the main branch, and a different change was made on the other branch. When trying to merge the branches, Git couldn’t figure out which change to keep, so it flagged a merge conflict.

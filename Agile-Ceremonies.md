@@ -1,4 +1,4 @@
-# SAgile Ceremonies  
+# Agile Ceremonies  
 
 Daily Stand-ups
 

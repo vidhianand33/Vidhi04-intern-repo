@@ -1,4 +1,4 @@
-VS Code Shortcuts
+# VS Code Shortcuts
 
 Top 10 shortcuts:
 
