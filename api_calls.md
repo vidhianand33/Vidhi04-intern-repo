@@ -1,1 +1,0 @@
-- Automatic JSON transformation: Axios automatically transforms the response data into JSON format, making it easier to work with APIs that return JSON data.
