@@ -1,25 +1,26 @@
-import React, { useState, useCallback } from 'react';
+import React from 'react';
 import './App.css';
 import HelloWorld from './HelloWorld'; 
 import Counter from './Counter';
 import AssignList from './AssignList';
 import MyForm from './MyForm.js';
+import { useSelector, useDispatch } from 'react-redux';  // Import Redux hooks
+import { increment } from './redux/counterSlice';  // Import the increment action
 
 function App() {
-  const [count, setCount] = useState(0);
+  // Use useSelector to get the count value from the Redux store
+  const count = useSelector((state) => state.counter.value);
 
-  // Using useCallback to prevent re-creating the increment function on every render
-  const incrementCount = useCallback(() => {
-    setCount((prevCount) => prevCount + 1);
-  }, []);
+  // Use useDispatch to get the dispatch function
+  const dispatch = useDispatch();
 
   return (
     <div className="App">
       {/* Pass the name prop to HelloWorld component */}
       <HelloWorld name="Focus Bear" />
       
-      {/* Pass incrementCount function to Counter */}
-      <Counter count={count} incrementCount={incrementCount} />
+      {/* Pass count from Redux store and dispatch function to Counter */}
+      <Counter count={count} incrementCount={() => dispatch(increment())} />
       
       <AssignList /> 
       <MyForm />
