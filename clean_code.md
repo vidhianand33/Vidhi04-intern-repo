@@ -1,4 +1,4 @@
-Clean code principle
+# Clean code principle
 
 Messy code example :
 const button = document.querySelector("#my-button");
@@ -60,11 +60,13 @@ Refactoring made the code more organised and modular. By splitting up big functi
 Reflection on Code Duplication
 
 Issues with Duplicated Code:
+
 - Harder to maintain: If a bug is found, it needs to be fixed in multiple places.
 - Increased complexity: More lines of code make it harder to understand.
 - Inconsistent updates: If one instance is changed but others are forgotten, it can lead to errors.
 
 Refactoring improve maintainability:
+
 - Used functions and loops to remove repeated logic.
 - Improved readability and made the code cleaner.
 - Easier to update: Changes only need to be made in one place.
@@ -73,25 +75,29 @@ Refactoring improve maintainability:
 Reflection on Commenting & Documentation
 
 When to Add Comments:
+
 - Explain complex logic that isn’t immediately clear.
 - Provide context for why a decision was made.
 - Clarify non-obvious workarounds or known issues.
 - Document function parameters, expected inputs, and return values.
 
 When to Avoid Comments:
-- When the code is self-explanatory 
+
+- When the code is self-explanatory
 - If the comment just repeats the code without adding value.
 - Instead of commenting on bad code, improve readability by renaming variables or breaking down complex functions.
 
 Reflection on Refactoring Code for Simplicity
 
 What ade the original code complex:
+
 - Overuse of nested loops and conditionals.
 - Unnecessary duplication of logic.
 - Hard-to-read variable names and function structures.
 - Everything in one large function.
 
 How did refactoring improve it:
+
 - Broke down large functions into smaller, reusable ones.
 - Replaced deep nesting with early returns.
 - Used meaningful variable and function names.
@@ -100,16 +106,19 @@ How did refactoring improve it:
 Reflection on Handling Errors & Edge Cases
 
 Issue with the Original Code:
+
 - It didn’t check for invalid inputs (e.g., None, empty values, or wrong data types).
 - It relied on nested conditionals.
 - Errors were not properly caught, leading to potential crashes.
 
 How Does Handling Errors Improve Reliability:
+
 - Prevents unexpected crashes by catching and handling errors early.
 - Improves user experience by providing clear error messages.
 - Makes debugging easier by logging meaningful error details.
 
 Unit Tests for Clean Code
+
 - Improves productivity
 - Avoids bugs
 - Helps to detect errors early
@@ -118,6 +127,7 @@ Unit Tests for Clean Code
 - Makes debugging easier
 
 Issues faced while unit testing
+
 - Choosing the type of tests
 - Regular reviewing: All the tests should be reviewed regularly if and when the code is updated.
 - Picking Functions to Test: It's tough to decide which functions are important to test.

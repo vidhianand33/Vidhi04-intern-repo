@@ -1,4 +1,4 @@
-Professionalism at Focus Bear
+# Professionalism at Focus Bear
 
 Great Teamwork and Professionalism: I’ve seen great teamwork in group projects where everyone was open, respectful, and worked together. The key to success was clear communication and supporting each other. Feedback was given kindly, and we all helped each other out when things got tough instead of passing blame.
 

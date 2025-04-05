@@ -1,4 +1,4 @@
-Learning Goals
+# Learning Goals
 
 What do you hope to learn from this internship?
 I hope to learn more about React and how to work with it in a real world environment. I also want to experience working in a professional office environment, learning how teams collaborate, and getting a better understanding of how projects are managed from start to finish.

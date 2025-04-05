@@ -1,4 +1,4 @@
-Git Concepts
+# Git Concepts
 
 Difference between staging and committing
     According to the research I did staging is like preparing your changes before you actually save them. You choose which changes you want to include in your next save, but you don’t save them yet. And committing is when you actually save your changes. Once you commit, those changes are stored in your project’s history, and they become a permanent part of your work.
@@ -13,7 +13,7 @@ When would you want to stage changes without committing?
     * You’re working on different things and want to save them separately later, even though you staged them at the same time.
     * You just need some time to review your changes before saving them.
 
-Merge conflict 
+Merge conflict
 
 What caused the conflict?
 The conflict was caused by editing the same section of the file in two different branches. One change was made on the main branch, and a different change was made on the other branch. When trying to merge the branches, Git couldn’t figure out which change to keep, so it flagged a merge conflict.
@@ -35,20 +35,20 @@ Branches help with code review by letting you make changes separately from the m
 What happens if two people edit the same file on different branches?
 If two people edit the same file on different branches, Git will create a merge conflict when trying to merge the branches. Git won't know which changes to keep, so it will ask you to manually choose the correct version or combine the changes.
 
-git checkout main -- <file>
+git checkout main -- file
 This command gets a specific file from the main branch and replaces your local version of that file with the one from main, without changing other files.
-git cherry-pick <commit>
+git cherry-pick -- commit
 This command allows you to take just one commit from another branch and apply it to your current branch, without merging the entire branch.
 git log
 This shows a list of all the commits made in the current branch, along with who made them and when. It's good for seeing the history of changes.
-git blame <file>
+git blame --file
 This command shows who last edited each line of a file and when, which is helpful for understanding why a specific line of code was changed.
 When would you use it in a real project?
 
-git checkout main -- <file> is helpful if you want to bring back a file from main and discard your local changes to that file.
-git cherry-pick <commit> is useful when you want a specific change from another branch but don't want to merge the whole branch.
+git checkout main -- file is helpful if you want to bring back a file from main and discard your local changes to that file.
+git cherry-pick -- commit is useful when you want a specific change from another branch but don't want to merge the whole branch.
 git log is useful to see the history of your project and find out who made changes and when.
-git blame <file> is great for finding out who made changes to specific lines of code, especially if you need help understanding why something was changed.
+git blame -- file is great for finding out who made changes to specific lines of code, especially if you need help understanding why something was changed.
 What surprised you while testing these commands?
 
 I was surprised by how useful git blame was to track who made changes to a file and when. It helped me figure out who to ask if I needed more details on a change. git cherry-pick also surprised me because it's a great way to just grab one commit without pulling in everything from another branch.
