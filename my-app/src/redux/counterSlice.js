@@ -1,5 +1,7 @@
 // src/redux/counterSlice.js
 import { createSlice } from '@reduxjs/toolkit';
+// selector function
+export const selectCount = (state) => state.counter.value;
 
 const initialState = {
   value: 0,

@@ -1,7 +1,6 @@
 # React Fundamentals
 
-When to use Redux instead of useState
-Both useState and Redux are used to manage state in a React app, but they are suited to different situations.
+## When to use Redux instead of useState ?
 
 1.Local vs Global State:
 
@@ -37,3 +36,15 @@ useState: It’s lightweight and great for small apps or when you don’t need t
 Redux: For larger apps with more components, Redux helps manage state changes more efficiently. It makes sure that only the parts of your app that need to update are re-rendered.
 
 To conclude useState is a better choice for simple apps and Redux for complex
+
+## Using selectors in Redux instead of directly accessing the state has a few good benefits
+
+- Keeps Things Neat: Selectors hide the messy details of how you get the data from the state. That means your components don’t need to worry about how the data is stored, they just ask the selector for it.
+
+- Reusability: You can use the same selector in multiple components. Instead of writing the same logic in every component to get data from the state, you create one selector and use it wherever you need.
+
+- Cleaner Code: By using selectors, you keep the logic of accessing the state separate from the rest of your app’s components. This makes the components simpler and easier to manage.
+
+- Consistency: With selectors, you make sure that every component gets the data in the same way. So, no matter where you’re using it, the logic is consistent.
+
+- Easier to Test: You can test selectors on their own, which makes it easier to check if they’re doing the right thing without having to test the entire component.
