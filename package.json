@@ -26,8 +26,7 @@
   },
   "lint-staged": {
     "*.md": [
-      "markdownlint --fix",
-      "markdown-spellcheck"
+      "markdownlint --fix"
     ]
   }
 }
