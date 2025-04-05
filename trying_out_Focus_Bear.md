@@ -1,4 +1,4 @@
-User Experience 
+# User Experience
 
 What was your first impression of the app?
 My first impression of Focus Bear was that it’s easy to download and straightforward. I liked that it asks for all the necessary permissions upfront before accessing anything. It’s a thoughtful, user-friendly app designed to help people stay focused, combining routines with distraction-blocking features, which felt unique and effective, especially for people with ADHD. It’s simple yet effective.

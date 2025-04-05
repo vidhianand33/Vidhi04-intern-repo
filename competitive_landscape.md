@@ -1,7 +1,7 @@
-Competitive Landscape 
+# Competitive Landscape
 
 What makes Focus Bear different from these apps?
-Focus Bear is different because it combines distraction blocking with helpful routines that guide you through your day. Most other apps either just block distractions or help you manage tasks, but Focus Bear does both. It helps you stay focused and structured by offering routines that support your focus and productivity throughout the day. I think it helps that focus bear is creatd taking ADHD people into special consideration so it has taken all measures to help a person focus.
+Focus Bear is different because it combines distraction blocking with helpful routines that guide you through your day. Most other apps either just block distractions or help you manage tasks, but Focus Bear does both. It helps you stay focused and structured by offering routines that support your focus and productivity throughout the day. I think it helps that focus bear is created taking ADHD people into special consideration so it has taken all measures to help a person focus.
 
 If you were a user, why would you choose Focus Bear over competitors?
 I’d choose Focus Bear because it gives me everything I need to stay focused. It doesn’t just block distractions; it helps me set up a routine that works for me, and tracks my progress to keep me motivated. It’s like having a personal productivity assistant that helps me stay on track without being too rigid.

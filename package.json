@@ -1,0 +1,32 @@
+{
+  "name": "vidhi04-intern-repo",
+  "version": "1.0.0",
+  "description": "Built with ❤️ using React Router and Tailwind CSS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vidhianand33/Vidhi04-intern-repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vidhianand33/Vidhi04-intern-repo/issues"
+  },
+  "homepage": "https://github.com/vidhianand33/Vidhi04-intern-repo#readme",
+  "devDependencies": {
+    "husky": "^8.0.0",
+    "lint-staged": "^13.0.0",
+    "markdown-spellcheck": "^1.3.1",
+    "markdownlint-cli": "^0.32.0"
+  },
+  "lint-staged": {
+    "*.md": [
+      "markdownlint --fix"
+    ]
+  }
+}
