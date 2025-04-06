@@ -4,6 +4,7 @@ import HelloWorld from './HelloWorld';
 import Counter from './Counter';
 import AssignList from './AssignList';
 import MyForm from './MyForm.js';
+import DataFetcher from './DataFetcher';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -23,6 +24,8 @@ function App() {
       
       <AssignList /> 
       <MyForm />
+      <h1>React useEffect Example</h1>
+      <DataFetcher />
     </div>
   );
 }
