@@ -25,17 +25,35 @@ It took a bit of practice to get my tests to run correctly, but once I got the h
 
 ## Why is it important to mock API calls in tests?
 
-Reliability: API calls depend on external services, which may change or become unavailable. Mocking ensures your tests run regardless of external factors.
-Speed: Real API calls can slow down tests. Mocking them makes tests faster and more efficient.
-Control: Mocking allows you to control the data returned by APIs, which is useful for testing edge cases or error handling.
+- Reliability: API calls depend on external services, which may change or become unavailable. Mocking ensures your tests run regardless of external factors.
+- Speed: Real API calls can slow down tests. Mocking them makes tests faster and more efficient.
+- Control: Mocking allows you to control the data returned by APIs, which is useful for testing edge cases or error handling.
 
 ## What are some common pitfalls when testing asynchronous code?
 
-Not Waiting for Async Updates:
-Tests might not wait for promises or async actions to complete, leading to errors or failing tests. Using await or waitFor can help solve this.
-Mocking Behavior Not Matching Reality:
-When mocking API calls, ensure the mocked behavior closely resembles the real API response (e.g., status codes, data structure).
-Over-Mocking:
-Mocking too many parts of the code can make tests harder to maintain and less accurate. It's important to strike a balance between testing real functionality and mocking dependencies.
-Not Handling Errors Properly:
-Always test how your components behave when the API fails (e.g., network errors). Neglecting to do this can lead to untested edge cases.
+- Not Waiting for Async Updates: Tests might not wait for promises or async actions to complete, leading to errors or failing tests. Using await or waitFor can help solve this.
+- Mocking Behavior Not Matching Reality: When mocking API calls, ensure the mocked behavior closely resembles the real API response (e.g., status codes, data structure).
+- Over-Mocking: Mocking too many parts of the code can make tests harder to maintain and less accurate. It's important to strike a balance between testing real functionality and mocking dependencies.
+- Not Handling Errors Properly: Always test how your components behave when the API fails (e.g., network errors). Neglecting to do this can lead to untested edge cases.
+
+## Reflection on Testing Redux
+
+The most challenging part of testing Redux was making sure that the components had access to the Redux store during the tests. Since Redux relies on the Provider to pass the store to the components, I had to remember to wrap the components in the Provider in every test that uses useSelector or useDispatch. If I missed this step, the test would fail because the components wouldn't be able to access the Redux store, and the hooks would throw errors.
+
+## How Redux Tests Differ from React Component Tests
+
+- State Management:
+React Component Tests: You're primarily testing how a component renders, reacts to props, and handles events. You check if the UI updates correctly based on user input or state changes.
+Redux Tests: You need to ensure the component correctly interacts with the Redux store. This means verifying that the component can access the state using useSelector, and it correctly dispatches actions using useDispatch.
+
+- Store Integration:
+React Component Tests: Components are tested independently. You don't need to worry about how they manage or access global state unless it’s passed as props.
+Redux Tests: Redux tests require the component to be wrapped in a Provider with the store. This allows the component to have access to the Redux store, and you're testing if the correct state is read from the store or if actions are properly dispatched.
+
+- Test Setup Complexity:
+React Component Tests: You typically only need to render the component and check for expected UI changes. The setup is straightforward.
+Redux Tests: The setup is more involved because you need to mock or configure the store for testing, which adds a layer of complexity. This can include testing if actions modify the state correctly or if selectors retrieve the right data from the store.
+
+- Focus on Actions & Reducers:
+React Component Tests: You're focused on the rendering logic and user interactions (like button clicks, input changes).
+Redux Tests: You’re also testing actions and reducers. You want to ensure that dispatching an action leads to the expected state change, which is not something you test in standard component tests.
