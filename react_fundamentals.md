@@ -46,3 +46,10 @@ Issues while working with lists:
 - Learning curve: Even though it simplifies design, there’s still a bit of a learning curve to get used to all the classes Tailwind offers.
 - Overwhelming class names: When you have a lot of utility classes in your HTML, it can get overwhelming and harder to maintain, especially in larger projects.
 - Not suitable for all projects: Tailwind works great for rapid prototyping and smaller projects but might not always be the best choice for large-scale or highly dynamic applications where custom CSS is required for fine-tuned control.
+
+## Client-side routing advantages
+
+- Faster Page Loads: Since only the necessary parts of the page are updated (instead of reloading the whole page), it makes navigation feel faster. You're not waiting for the entire page to reload each time you click a link.
+- Smooth User Experience: With client-side routing, navigation feels seamless and smooth, as there's no page refresh. It’s like using an app, where content changes instantly without any interruptions.
+- Less Server Load: The server doesn’t need to send a new HTML page each time a user clicks a link. It only sends the required data, which reduces the load on the server and makes it more efficient.
+- Better Performance: After the initial load, all the data and components are already available in the browser, so moving between pages is really quick and doesn’t need to wait for the server to respond every time.
