@@ -6,8 +6,10 @@ import Counter from './Counter';
 import AssignList from './AssignList';
 import MyForm from './MyForm.js';
 import DataFetcher from './DataFetcher';
-import Home from './Home'; // Create this component
-import Profile from './Profile'; // Create this component
+import Home from './Home'; 
+import Profile from './Profile'; 
+import ExpensiveCalculation from './ExpensiveCalculation'; 
+
 
 function App() {
   const [count, setCount] = useState(0);
@@ -45,6 +47,7 @@ function App() {
         <MyForm />
         <h1>React useEffect Example</h1>
         <DataFetcher />
+        <ExpensiveCalculation />
       </div>
     </Router>
   );
