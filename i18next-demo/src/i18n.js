@@ -1,0 +1,21 @@
+// src/i18n.js
+import i18next from 'i18next';
+import { initReactI18next } from 'react-i18next';
+import enTranslation from './locales/en/translation.json'; // We'll create this file soon.
+import esTranslation from './locales/es/translation.json'; // Add other languages as needed.
+
+i18next
+  .use(initReactI18next)
+  .init({
+    resources: {
+      en: { translation: enTranslation },
+      es: { translation: esTranslation },
+    },
+    lng: 'en', // Default language
+    fallbackLng: 'en', // Fallback language
+    interpolation: {
+      escapeValue: false, // React already does escaping
+    },
+  });
+
+export default i18next;
