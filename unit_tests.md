@@ -22,3 +22,20 @@ It took a bit of practice to get my tests to run correctly, but once I got the h
 - Choosing the Right Elements: Picking the correct element to interact with can be difficult if many similar elements exist. Using good queries (like getByRole or getByText) helps avoid confusion.
 
 - Waiting for UI Updates: After a user interaction, the UI might update, and you need to make sure your test waits for this before checking results.
+
+## Why is it important to mock API calls in tests?
+
+Reliability: API calls depend on external services, which may change or become unavailable. Mocking ensures your tests run regardless of external factors.
+Speed: Real API calls can slow down tests. Mocking them makes tests faster and more efficient.
+Control: Mocking allows you to control the data returned by APIs, which is useful for testing edge cases or error handling.
+
+## What are some common pitfalls when testing asynchronous code?
+
+Not Waiting for Async Updates:
+Tests might not wait for promises or async actions to complete, leading to errors or failing tests. Using await or waitFor can help solve this.
+Mocking Behavior Not Matching Reality:
+When mocking API calls, ensure the mocked behavior closely resembles the real API response (e.g., status codes, data structure).
+Over-Mocking:
+Mocking too many parts of the code can make tests harder to maintain and less accurate. It's important to strike a balance between testing real functionality and mocking dependencies.
+Not Handling Errors Properly:
+Always test how your components behave when the API fails (e.g., network errors). Neglecting to do this can lead to untested edge cases.
